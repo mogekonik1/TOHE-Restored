@@ -47,7 +47,7 @@ public static class Camouflage
         if (!(AmongUsClient.Instance.AmHost && (Options.CommsCamouflage.GetBool() || CustomRoles.Camouflager.IsEnable()))) return;
 
         CamouflageOutfit = Options.KPDCamouflageMode.GetBool() ?
-        new GameData.PlayerOutfit().Set("", 13, "hat_pk05_Plant", "", "visor_BubbleBumVisor", "") :
+        new GameData.PlayerOutfit().Set("", 10, "hat_hl_gura", "skin_hl_gura", "visor_hl_ah", "") :
         new GameData.PlayerOutfit().Set("", 15, "", "", "", "");
 
         var oldIsCamouflage = IsCamouflage;
